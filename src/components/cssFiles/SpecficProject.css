@@ -1,0 +1,42 @@
+.Specfic-Project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rems; /* Adjust the gap as needed */
+}
+#specfic-project-btn button {
+  width: 72rem;
+}
+#specfic-projects-select {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: -5px; */
+}
+#specfic-projects-select select {
+  height: 3.5rem;
+  font-size: 1.1rem;
+  margin-top: -16px;
+  background-color: #e4e4e4;
+  border: none;
+}
+#specficProject-save-button {
+  margin: -1rem 1rem 1rem 1rem;
+}
+#specficProject-save-button button:hover {
+  color: white;
+  background-color: #2a2a2a;
+}
+.specfic-project-full-box {
+  display: flex;
+  /* width: 150rem; */
+}
+.dashboard-container-projects {
+  width: 95rem;
+}
+.specfic-project-full-left {
+  flex: 3;
+}
+.specfic-project-full-right {
+  flex: 1;
+  text-align: center;
+  margin-top: 4.5rem;
+}

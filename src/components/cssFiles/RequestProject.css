@@ -1,0 +1,82 @@
+.request-project h4 {
+  margin-left: 1rem;
+}
+.request-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.request-project-left {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin: 2rem;
+}
+.request-project-right {
+  flex: 1;
+}
+.request-project-inputs:last-child {
+  grid-column: span 2; /* Span the last input across both columns */
+}
+.request-project-inputs input {
+  border: none;
+  background-color: #e4e4e4; /* Change this to the desired background color */
+}
+.request-project-button button {
+  margin: 2rem;
+  margin-top: 1rem;
+  width: 60.7rem;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid #2a2a2a;
+}
+.request-project-button button:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+}
+.request-project-inner-flex {
+  display: flex;
+}
+.request-project-right-all-btns {
+  display: flex;
+  gap: 1rem;
+}
+.request-project-right-con-rev-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* gap: 1rem; */
+}
+.request-project-right-all-btns button {
+  background-color: white;
+  color: #2a2a2a;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 3px solid #2a2a2a;
+  width: 10rem;
+  height: 3rem;
+}
+.request-project-right-all-btns button:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+}
+.renovation-button {
+  margin-right: 2.2rem;
+}
+#activ-btns {
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+}
+.cerateprojectbutton button {
+  width: 91rem;
+}

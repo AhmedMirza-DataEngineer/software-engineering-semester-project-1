@@ -1,0 +1,44 @@
+.unassigncontractor {
+  width: 10rem;
+}
+.dropdown-content-new-meeting button {
+  /* width: 4rem; */
+  color: #2a2a2a;
+  /* flex: 1; */
+  width: 100%;
+  background-color: #ffb400;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown-content-new-meeting button:active {
+  background-color: #2a2a2a;
+  color: white;
+}
+/* .new-meeting-section {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+} */
+.dropdown-meeting-new {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content-new-meeting {
+  /* display: none; */
+  position: absolute;
+  background-color: #e4e4e4;
+  min-width: 10rem;
+  box-shadow: 0 0 1rem #2a2a2a;
+  z-index: 1;
+  /* margin-right: 9rem; */
+  right: 0;
+}
+.dropdown-hidden {
+  display: none;
+}

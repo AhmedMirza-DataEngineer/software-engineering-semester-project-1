@@ -1,0 +1,102 @@
+#assignProject-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* margin: 1rem;
+   */
+}
+.assigncontractor-left {
+  margin-left: 1rem;
+}
+.assigncontractor-right {
+  margin-right: 1rem;
+}
+.horizontal-line {
+  border-top: 3px solid #2a2a2aaa;
+  margin: 1rem 0 1rem 1rem;
+}
+.assign-contractor-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem;
+  gap: 1rem;
+}
+.assign-contractor-fields-button {
+  grid-column: span 2;
+  width: 100%;
+}
+.assign-contractor-fields-button button {
+  width: 100%;
+  border: 3px solid #2a2a2a;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.scrollable-table-container {
+  max-height: 200px; /* Set your desired max height */
+  overflow-y: auto;
+}
+.assign-contractor-fields-button button:hover {
+  background-color: #2a2a2a;
+  color: white;
+}
+.assign-contractor-container input {
+  background-color: #e4e4e4;
+}
+.work-completed-contractor {
+  margin-top: 1.5rem;
+}
+.work-completed-contractor button {
+  height: 3.5rem;
+}
+.meetings-tbl {
+  flex: 2;
+  align-self: start;
+}
+.upload-documents {
+  flex: 1;
+  /* justify-self: start; */
+}
+.upload-documents-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preview-image {
+  max-width: 100%;
+  max-height: 200px; /* Adjust the maximum height as needed */
+}
+.upload-buton button {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+.upload-buton button:hover {
+  background-color: #2a2a2a;
+  color: white;
+}
+.reset-button {
+  margin-left: 1rem;
+}
+.special-new-meeting-schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+.special-new-meeting-schedule button {
+  width: 10rem;
+}
+.special-new-meeting-schedule button:hover {
+  background-color: #ffb400;
+  color: #2a2a2a;
+}
+.download-button-document {
+  width: 10rem;
+}
+.upload-documents {
+  margin-bottom: 1rem;
+}

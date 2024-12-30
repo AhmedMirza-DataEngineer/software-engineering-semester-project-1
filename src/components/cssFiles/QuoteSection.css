@@ -1,0 +1,20 @@
+.quote-Section {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 15rem;
+  line-height: 2;
+  background-color: rgba(217, 217, 217, 0.75);
+}
+.quote-Section img {
+  width: 12.5rem;
+  height: 9.25rem;
+}
+.quote-Section h1 {
+  color: #2a2a2a;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+#close-Comma {
+  padding-top: 9rem;
+}

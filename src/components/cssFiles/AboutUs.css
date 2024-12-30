@@ -1,0 +1,47 @@
+.aboutUs-section {
+  background-color: #e4e4e4;
+  /* height: 80vh; */
+}
+/* aboutUs.css */
+
+.about-us-container {
+  display: flex;
+  height: 36rem;
+  gap: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin-top: 4rem; */
+  /* text-align: center; */
+}
+
+.about-us-left {
+  margin-top: 3rem;
+  padding-right: 3rem;
+  padding: 1rem;
+  width: 36rem;
+}
+
+.about-us-left h1 {
+  font-size: 4rem;
+}
+
+/* .about-us-left img {
+  width: 100%; 
+  height: auto;
+  margin-bottom: 1rem;
+} */
+
+.about-us-left p {
+  font-size: 1rem;
+}
+
+.about-us-right {
+  overflow: hidden;
+  width: 40rem;
+}
+
+.about-us-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire space */
+}

@@ -1,0 +1,175 @@
+.bdy {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 90vh;
+  background-color: #fff;
+}
+.container {
+  text-align: center;
+  transition: width 0.3s ease;
+}
+.container h1 {
+  margin-top: 6rem;
+  font-size: 4rem;
+}
+
+.calculator-body {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.openCost {
+  width: 46.875rem;
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.openTime {
+  width: 46.875rem;
+  color: #2a2a2a;
+  background-color: #ffb400;
+}
+.closeTime {
+  display: inline;
+  width: 15.625rem;
+  background-color: #ffb400;
+}
+.closeCost {
+  display: inline;
+  width: 15.625rem;
+  background-color: #2a2a2a;
+}
+.whenTimeOpen h2 {
+  color: #fff;
+}
+.whenTimeOpen #case2 {
+  color: #2a2a2a;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons img {
+  height: 7rem;
+  width: 7rem;
+}
+.fields {
+  padding: 3rem;
+}
+
+.form-group {
+  display: flex;
+  font-size: large;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.label-container {
+  width: 30%; /* Adjust the width as needed */
+}
+.input-container,
+.output-container {
+  width: 60%; /* Adjust the width as needed */
+}
+.input-container,
+.output-container {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.whenCostOpen .form-group select,
+.form-group input {
+  font-size: large;
+  width: 100%;
+  padding: 0.6rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(255, 180, 0, 0.35);
+}
+.whenTimeOpen .form-group select,
+.form-group input {
+  font-size: large;
+  width: 100%;
+  padding: 0.6rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(42, 42, 42, 0.75);
+}
+.whenTimeOpen .form-group input {
+  font-size: large;
+  width: 100%;
+  padding: 0.6rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(42, 42, 42, 0.75);
+}
+.whenCostOpen .form-group input {
+  font-size: large;
+  width: 100%;
+  padding: 0.6rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(255, 180, 0, 0.35);
+}
+.whenCostOpen .form-group select:focus {
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  background-color: #2a2a2a;
+}
+.whenTimeOpen .form-group select:focus {
+  font-weight: bold;
+  color: #2a2a2a;
+  outline: none;
+  background-color: #ffb400;
+}
+.whenCostOpen .output {
+  background-color: rgba(255, 180, 0, 0.35);
+  padding: 0.5rem;
+  min-height: 36px;
+}
+.whenTimeOpen .output {
+  background-color: rgba(42, 42, 42, 0.75);
+  padding: 0.5rem;
+  min-height: 36px;
+  color: #fff;
+}
+
+.whenCostOpen button {
+  width: 30%;
+  padding: 0.625rem;
+  background-color: rgba(255, 180, 0, 1);
+  color: #2a2a2a;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+.whenTimeOpen button {
+  width: 30%;
+  padding: 0.625rem;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+.whenCostOpen button:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 3px solid #ffb400;
+}
+.whenTimeOpen button:hover {
+  background-color: #ffb400;
+  color: #2a2a2a;
+  border: 3px solid #2a2a2a;
+}
+.hidden {
+  display: none;
+}

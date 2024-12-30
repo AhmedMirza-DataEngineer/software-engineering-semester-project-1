@@ -1,0 +1,66 @@
+.projects-container {
+  height: 100vh;
+  width: 100%;
+  margin-top: 4rem;
+  text-align: center;
+}
+.projects-container h1 {
+  font-size: 4rem;
+}
+.project-image-container {
+  position: relative;
+  display: flex;
+  /* gap: 2rem; */
+  width: 25rem;
+  height: 38.688rem;
+
+  /* align-items: ; */
+}
+.project-image-container .project-images-for img {
+  object-fit: cover;
+}
+.project-overlay p {
+  margin-top: 15rem;
+}
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* transform: translate(-50%, -50%); */
+  background-color: transparent;
+  color: transparent;
+  transition: opacity 0.3s ease;
+}
+.project-overlay:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 180, 0, 0.75);
+  color: #2a2a2a;
+  transition: opacity 0.3s ease;
+}
+.projects-container-section {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 2rem;
+}
+.projects-btn {
+  width: 15%;
+  height: 3.5rem;
+  color: #2a2a2a;
+  font-weight: bold;
+  font-size: large;
+  margin: 3rem 0;
+  border: 3px solid #2a2a2a;
+  background-color: white;
+}
+.projects-btn:hover {
+  color: white;
+  border: none;
+  background-color: #2a2a2a;
+}

@@ -1,0 +1,78 @@
+.signup-page {
+  /* width: 100vh; */
+  height: 91vh;
+  background: url("../../images/signupPageImg.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-conatiner-left-inner {
+  padding: 2rem;
+}
+.signup-conatiner {
+  display: flex;
+  width: 80%;
+  background-color: rgba(42, 42, 42, 0.8);
+  color: white;
+  box-shadow: 0 0 2.5rem #e4e4e4aa;
+}
+.conatiner-left-grid-1 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.signup-contractor {
+  margin-top: 1.5rem;
+}
+.conatiner-left-grid-2 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.signup-page-btn {
+  font-size: 1.5rem;
+  background-color: #ffb400;
+  border: none;
+  width: 70.7rem;
+  height: 4rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #2a2a2a;
+}
+.signup-page-btn:hover {
+  background-color: #2a2a2a;
+  color: white;
+  border: 3px solid white;
+}
+.signup-conatiner-right {
+  display: flex;
+  margin-right: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+.signup-right-buttons button {
+  color: white;
+  background-color: #2a2a2a;
+  border: 3px solid white;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.signup-right-buttons button:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+  box-shadow: 0 0 4px white;
+}
+.hidden {
+  display: none;
+}
+#active-btn {
+  background-color: #fff;
+  color: #2a2a2a;
+}

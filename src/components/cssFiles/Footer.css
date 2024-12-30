@@ -1,0 +1,125 @@
+/* Footer.css */
+
+.footer-container {
+  display: flex;
+  height: 38rem;
+}
+.footer-left-content {
+  width: 80%;
+}
+.footer-left-content img {
+  margin-bottom: 2rem;
+}
+.left-footer {
+  flex: 1;
+  background-color: #ffb400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3rem; */
+  /* padding: 20px;  */
+}
+.left-footer h1 {
+  font-size: 3.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+input,
+textarea:focus {
+  /* border: none; */
+
+  font-size: 1.25rem;
+}
+button {
+  align-self: flex-end;
+}
+
+.right-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-right {
+  height: 6rem;
+  background-color: #2a2a2a;
+  /* Additional styles for the upper-right section */
+}
+
+.lower-right {
+  flex: 1;
+  /* Additional styles for the lower-right section */
+}
+
+.footer-btn {
+  color: white;
+  background-color: #ffb400;
+  border: 3px solid white;
+  width: 15rem;
+  height: 4rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.footer-btn:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+.upper-right {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.upper-right img {
+  transition: transform 0.3s ease;
+}
+.upper-right img:hover {
+  transform: translateY(-5px);
+}
+.lower-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#locationIcon {
+  width: 1.25rem;
+}
+#emailIcon {
+  width: 1.5rem;
+}
+.flex-lower-right {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+.flex-lower-right a {
+  text-decoration: none;
+  color: #2a2a2a;
+}

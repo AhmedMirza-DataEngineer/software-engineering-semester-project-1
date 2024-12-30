@@ -1,0 +1,78 @@
+.no-project-container {
+  display: flex;
+  min-height: 100vh;
+  /* flex-direction: column; */
+}
+
+.video-section,
+.noProjectTooBig-second-section {
+  flex: 1;
+}
+.noProjectTooBig-second-section {
+  align-content: flex-end;
+  justify-content: flex-end;
+  background-color: #e4e4e4;
+}
+/* .text-section {
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+} */
+.text-section {
+  max-width: 70%;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+
+.text-section h1 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+#special-p-element-in-npproject {
+  font-weight: 700;
+  /* padding-top: 5rem; */
+}
+.text-section p {
+  padding-top: 3rem;
+  font-size: 1.25rem;
+}
+.text-section img {
+  max-width: 8rem;
+  height: auto;
+}
+.video-section video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.bottom-sections {
+  display: flex;
+  margin-top: 1rem;
+  flex: 1;
+  width: 100%;
+  margin-top: 6.275rem;
+}
+.section1,
+.section2 {
+  flex: 1;
+  height: 8rem;
+  text-align: center;
+}
+.section1-h3 {
+  padding: 0;
+  margin-top: 1.25rem;
+  font-size: 2rem;
+}
+.lower {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.section2 {
+  color: white;
+  background-color: #2a2a2a;
+}
+.section1 {
+  color: #2a2a2a;
+  background-color: #ffb400;
+}

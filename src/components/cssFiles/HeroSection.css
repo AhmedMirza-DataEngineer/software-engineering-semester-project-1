@@ -1,0 +1,195 @@
+.hero-section {
+  position: relative;
+  background: url("../../images/HeroSection.jpg") center/cover no-repeat;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 1.25rem; */
+}
+
+.left-section,
+.right-section {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-section {
+  width: 70%;
+  background-color: rgba(42, 42, 42, 0.6);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15rem;
+}
+
+.right-section {
+  width: 30%;
+  background-color: rgba(255, 180, 0, 0.85);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-section h1 {
+  font-size: 3.25rem;
+}
+.iconP {
+  display: flex;
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  padding-right: 0.5rem;
+  align-items: center;
+  height: 2rem;
+}
+.pIcon {
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right: 0.1rem;
+}
+
+.left-section h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.left-section h1::after {
+  content: "\a";
+  white-space: pre;
+}
+#HeroButton button {
+  padding: 1rem 1.875rem;
+  margin: 0;
+  transition: box-shadow 0.3s ease;
+}
+#HeroButton :hover {
+  background-color: #2a2a2a;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px white;
+}
+.HeroButton {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.right-section p {
+  font-weight: bold;
+  opacity: 85%;
+  text-align: center;
+}
+
+.textIcon {
+  display: flex;
+  align-items: center;
+}
+.textIcon img {
+  height: 3.25rem;
+}
+.textIcon p {
+  opacity: 1;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.allTextIcons {
+  justify-content: left;
+}
+/* .rightBtns{
+    marg
+} */
+#rightBtns button {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 13.204rem;
+  height: 3.625rem;
+  margin-bottom: 1.875rem;
+}
+
+#loginBtn button {
+  background-color: #2a2a2a;
+  color: white;
+  transition: box-shadow 0.3s ease;
+  margin-top: 3.75rem;
+}
+#loginBtn button:hover {
+  background-color: #ffb400;
+  border: 3px solid #2a2a2a;
+  color: #2a2a2a;
+  box-shadow: 0 0 10px #2a2a2a;
+}
+
+#signupBtn button {
+  border: 3px solid #2a2a2a;
+  transition: box-shadow 0.3s ease;
+}
+
+#signupBtn button:hover {
+  border: none;
+  color: white;
+  background-color: #2a2a2a;
+  box-shadow: 0 0 10px #2a2a2a;
+}
+@media screen and (max-width: 768px) {
+  /* Adjust styles for tablets and smaller screens */
+  .hero-section {
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-section .iconP {
+    display: none;
+  }
+  /* .left-section {
+    flex-direction: column;
+  } */
+  .right-section {
+    width: 100%;
+  }
+
+  .left-section h1 {
+    font-size: 3rem;
+  }
+
+  .right-section h1 {
+    font-size: 2rem;
+  }
+
+  #HeroButton button {
+    padding: 0.75rem 1.25rem;
+  }
+
+  #rightBtns button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens, e.g., mobile devices */
+  .left-section,
+  .right-section {
+    padding: 2rem;
+  }
+
+  .left-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .right-section h1 {
+    font-size: 1.75rem;
+  }
+
+  #HeroButton button {
+    padding: 0.5rem 1rem;
+  }
+
+  #loginBtn button {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+#specficUser-table {
+  justify-content: start;
+  align-items: start;
+  margin-right: 1rem;
+}
+.specficuser-table-link tr td a {
+  text-decoration: none;
+  border: none;
+  text-align: left;
+}
+.specficuser-table-link tr td a:hover {
+  color: #2a2a2a;
+}
+.uploadprogressbutton button {
+  width: 91rem;
+}

@@ -1,0 +1,40 @@
+.user-projects-table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.userprojectsTable h4 {
+  padding-left: 2rem;
+}
+.user-projects-table {
+  width: 97%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: rgba(42, 42, 42, 0.8);
+}
+.user-projects-table th {
+  background-color: rgba(228, 228, 228, 0.75);
+}
+.user-projects-table th,
+.user-projects-table td {
+  border-top: 2px solid rgba(228, 228, 228, 1);
+  border-bottom: 2px solid rgba(228, 228, 228, 1);
+  padding: 1rem;
+  text-align: center;
+}
+.user-projects-table tbody tr:hover {
+  font-weight: bold;
+  color: rgba(42, 42, 42, 1);
+  cursor: pointer;
+}
+.user-projects-table th,
+.user-projects-table td a {
+  border-top: 2px solid rgba(228, 228, 228, 1);
+  border-bottom: 2px solid rgba(228, 228, 228, 1);
+  padding: 1rem;
+  text-align: center;
+  color: rgba(42, 42, 42, 0.8);
+  text-decoration: none;
+}
